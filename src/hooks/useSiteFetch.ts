@@ -1,6 +1,6 @@
 import { cookies } from "../store"
 
-const baseUrl = 'https://lemonlive.deno.dev/api/'
+const baseUrl = 'https://stopstop.deno.dev/api/'
 // const baseUrl = 'http://localhost:8000/api/'
 
 export const useSiteFetch = (id: siteId, method: LiveSiteMethod, params: QueryParams = {}) => {
